@@ -2,13 +2,19 @@
   "meteor": {},
   "dependencies": {
     "basePackages": {
-      "accounts-linkedin": {}
+      "accounts-linkedin": {},
+      "phonegap-oauth": {}
     },
     "packages": {
       "accounts-linkedin": {
         "git": "https://github.com/yefim/meteor-accounts-linkedin.git",
         "tag": "v0.0.6",
         "commit": "58ae8fc9da845c2eabcacc5cc6a238af6189d19d"
+      },
+      "phonegap-oauth": {
+        "git": "https://github.com/AdamBrodzinski/meteor-phonegap-oauth.git",
+        "tag": "v0.1.5",
+        "commit": "73ccd691e762ddda55e920851b0e02e95cd4bcd5"
       },
       "linkedin": {
         "git": "https://github.com/yefim/meteor-linkedin.git",

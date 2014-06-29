@@ -1,5 +1,6 @@
 {
   "packages": {
-    "accounts-linkedin": {}
+    "accounts-linkedin": {},
+    "phonegap-oauth": {}
   }
 }
