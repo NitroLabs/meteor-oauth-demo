@@ -1,7 +1,8 @@
 meteor-oauth-demo
 =================
 
-A sandbox for Meteor's OAuth
+A sandbox for Meteor's OAuth 
+Try it on localhost or online at [oauth-demo.meteor.com](http://oauth-demo.meteor.com)
 
 ####Serveral Providers to test
 ![Buttons](http://cl.ly/image/391k2w443U0Z/Screen%20Shot%202014-06-11%20at%2011.34.56%20AM.png)
