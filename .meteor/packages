@@ -6,10 +6,9 @@
 standard-app-packages
 autopublish
 insecure
-accounts-github
 accounts-ui
 accounts-twitter
 accounts-facebook
 accounts-google
-accounts-linkedin
-phonegap-oauth
+pauli:accounts-linkedin
+maxkferg:accounts-onedrive
