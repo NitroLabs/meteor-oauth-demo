@@ -1,7 +1,7 @@
 meteor-oauth-demo
 =================
 
-A sandbox for Meteor's OAuth 
+A sandbox for Meteor's OAuth.<br>
 Try it on localhost or online at [nitro-oauth-demo.meteor.com](http://nitro-oauth-demo.meteor.com/)
 
 ####Serveral Providers to test
