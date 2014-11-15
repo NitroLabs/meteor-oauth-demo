@@ -4,7 +4,6 @@
 # but you can also edit it by hand.
 
 standard-app-packages
-autopublish
 insecure
 accounts-ui
 accounts-twitter
@@ -13,5 +12,5 @@ accounts-google
 pauli:accounts-linkedin
 maxkferg:accounts-onedrive
 gcampax:accounts-box
+gcampax:accounts-dropbox
 maxkferg:facebook-collections
-

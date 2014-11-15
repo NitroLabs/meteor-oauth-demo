@@ -8,6 +8,10 @@ if (Meteor.isClient){
 
 
 if (Meteor.isClient) {
+  Tracker.autorun(function () {
+    Meteor.subscribe("userData");
+  });
+  
   Template.helpers({
     "loggedIn":function () {
         return Meteor.user();
@@ -15,3 +19,11 @@ if (Meteor.isClient) {
   });
 }
 
+
+
+if (Meteor.isServer){
+    Meteor.publish("userData", function () {
+        return Meteor.users.find({_id: this.userId},
+            {fields: {'services': 1}});
+    });
+}
