@@ -11,7 +11,7 @@ if (Meteor.isClient) {
   Tracker.autorun(function () {
     Meteor.subscribe("userData");
   });
-  
+
   Template.helpers({
     "loggedIn":function () {
         return Meteor.user();
